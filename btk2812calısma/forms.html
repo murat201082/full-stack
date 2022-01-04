@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="./resim/cita resim.jpeg"  type="image/x-icon">
+    <title>forms</title>
+</head>
+<body>
+    <h1>Üye Kayıt Formu:</h1>
+    <form name="kayıt" action="./resim/kayit.php" method="get" autocomplete="on">
+       <table> 
+        <tr> <td> Ad Soyad:</td> <td><input type="text" name="adsoyad" id="idadsoyad" size="20" maxlength="30" autofocus required placeholder="Ali Özcan"></td> </tr>
+        <br>
+        <tr><td> Okul: </td> <td> <input type="text" name="okul" size="20" maxlength="30" required ></td></tr>
+        <br>
+       <tr><td> E-Mail:</td> <td><input type="email" name="email" id="email" size="20" max="30" required placeholder="asdfg@gmail.com"></td> </tr>
+        <br>
+       <tr> <td> Web Page:</td> <td> <input type="webpage" name="adres" id="web adres" size="20" max="30" placeholder="www.google.com"></td></tr> 
+        <br>
+       <tr> <td> Yaşınız: </td> <td> <input type="number" name="yas"id="yas"  disabled ></tr> </td>
+        <br>
+        <tr> <td></td><td> <input type="submit" value="Tamam" > <input type="reset" value="Temizle"> </td></tr>
+    </table>
+    </form>
+    
+</body>
+</html>
